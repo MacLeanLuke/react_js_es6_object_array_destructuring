@@ -1,12 +1,12 @@
-import animals, { useAnimals } from "./data";
+// import animals, { useAnimals } from "./data";
 
-const [cat, dog] = animals;
-// console.log(cat);
+// const [cat, dog] = animals;
+// // console.log(cat);
 
-const [animal, makeSound] = useAnimals(cat);
-console.log(animal);
+// const [animal, makeSound] = useAnimals(cat);
+// console.log(animal);
 
-makeSound();
+// makeSound();
 
 // const {name:catName, sound: catSound} = cat;
 
